@@ -1,0 +1,11 @@
+[masters]
+
+57.147.142.28 ansible_user=ubuntu ansible_private_key_file=/home/Terraform/swarm-deploy/docker-key.pem
+
+[workers]
+  
+57.87.157.219 ansible_user=ubuntu ansible_private_key_file=/home/Terraform/swarm-deploy/docker-key.pem
+
+57.23.173.2 ansible_user=ubuntu ansible_private_key_file=/home/Terraform/swarm-deploy/docker-key.pem
+
+19.205.115.243 ansible_user=ubuntu ansible_private_key_file=/home/Terraform/swarm-deploy/docker-key.pem
