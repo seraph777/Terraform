@@ -4,7 +4,7 @@ provider "aws" {
   region = "${var.region}"
   #caso precise de assume role, se não for seu caso remova esta parte
   assume_role {
-        role_arn = "arn:aws:iam::999666555444:role/devops-monster-team"
+        role_arn = "arn:aws:iam::99999999999999:role/devops-monster-team"
         
     }
 }
